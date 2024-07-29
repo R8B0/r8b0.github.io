@@ -1,3 +1,20 @@
-.ui-header{
-    color: red;
+.ui-header a{
+    color: hwb(0 9% 91%);
+    text-decoration: none;
 }
+.ui-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    background-color: hwb(206 92% 2%);
+
+}
+.ui-header-right{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+
